@@ -36,10 +36,14 @@ highPeaks[,1]
 
 highPeaks$prom
 highPeaks[2,2]
+
 # homework ----
 
+# prompt 1
 snowDepth <- c(2.5,3,5,4.5)
 snowDepthCm <- snowDepth*2.54
+
+#prompt 2
 
 hwPeakNames <- c("Mount Haystack",
                  "Mount Skylight",
@@ -62,7 +66,16 @@ hwPeaks <- data.frame(name = hwPeakNames,
                       climb = hwClimbAscent,
                       trip = hwRoundTripLength)
 
+# prompt 3
 
+farenheitObs <- c(-44, 0, 35)
+celciusObs <- (farenheitObs-32)*(5/9)
 
+# Question 1
 
+hwPeakElev/3.281
+
+# Question 3
+
+longestHike <- max(hwRoundTripLength)
 
